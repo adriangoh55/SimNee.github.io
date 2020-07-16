@@ -22,12 +22,39 @@ https://templatemo.com/tm-512-moonlight
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <style>
-            .progress-container progress-primary {
-              background-color: tomato;
-              color: white;
-              border: 2px solid black;
-              margin: 20px;
-              padding: 20px;
+            .progress-container {
+                background-color: tomato;
+                color: white;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 20px;
+            }
+            .progress-container .progress-badge {
+                color: #888;
+                font-size: 0.8571em;
+                text-transform: uppercase;
+            }
+            .progress-container .progress {
+                height: 1px;
+                border-radius: 0;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                background: rgba(222, 222, 222, 0.8);
+                margin-top: 14px;
+            }
+
+            .progress-container .progress .progress-bar {
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                background-color: #888;
+            }
+
+            .progress-container .progress .progress-value {
+                position: absolute;
+                top: 2px;
+                right: 0;
+                color: #888;
+                font-size: 0.8571em;
             }
         </style>
     </head>
